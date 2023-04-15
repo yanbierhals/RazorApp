@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\imgs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="wwwroot\imgs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\imgs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\imgs\**" />
+  </ItemGroup>
+
+</Project>

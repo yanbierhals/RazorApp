@@ -1,0 +1,9 @@
+﻿{
+  "profiles": {
+    "Kestrel": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5000"
+    }
+  }
+}
